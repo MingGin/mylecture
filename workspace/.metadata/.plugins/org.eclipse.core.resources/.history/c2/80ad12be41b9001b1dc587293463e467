@@ -1,0 +1,17 @@
+package kr.java.chapter5;
+
+public class ArrayEx3 {
+
+	public static void main(String[] args) {
+
+
+		// 2 x 3 硅凯 : 青快急
+		
+		int[][] arr = new int [2][3];
+		
+		System.out.println("青: " + arr.length);
+		System.out.println("青: " + arr[0].length);
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package kr.java.chapter8;
+
+import java.util.Scanner;
+
+public class MatchingTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String[] animal = {"곰돌이", "복돌이", "흰둥이", "깨소금", "까만콩"};
+		System.out.println("애완견 이름을 입력하시오.");
+		String name = sc.nextLine();
+		
+		for(int i = 0; i < animal.length; i++)
+		{
+			switch(name)
+			{
+				case "곰돌이" :
+					System.out.println("bear");
+					break;
+				case "복돌이" :
+					System.out.println("Gift");
+					break;
+				case "흰둥이" :
+					System.out.println("White");
+					break;
+				case "깨소금" :
+					System.out.println("Sesami");
+					break;
+				case "까만콩" :
+					System.out.println("Black");
+					break;
+					
+			}
+		}
+		
+		
+
+	}
+
+}

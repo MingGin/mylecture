@@ -1,0 +1,91 @@
+package kr.java.homework;
+
+import java.util.Scanner;
+//5. 18 과제
+public class homework1 {
+
+	public static void main(String[] args) {
+//		123p 1번
+		/*int num1 = 10;
+		int num2 = 2;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("사칙연산 +,-,*,/를 입력해주세요");
+		char operator = sc.nextLine().charAt(0);
+		
+		switch(operator)
+		{
+		case '+':
+			operator = '+';
+			break;
+		case '-':
+			operator = '-';
+			break;
+		case '*':
+			operator = '*';
+			break;
+		case '/':
+			operator = '/';
+			break;
+		}
+		
+		if(operator == '+')
+		{
+			System.out.println(num1 + num2);
+		}
+		else if(operator == '-')
+		{
+			System.out.println(num1 - num2);
+		}
+		else if(operator == '*')
+		{
+			System.out.println(num1 * num2);
+		}
+		else if(operator == '/')
+		{
+			System.out.println(num1 / num2);
+		}
+		else
+			System.out.println("사칙연산이 아닙니다.");*/
+		
+//		123p 2번	
+		/*for(int i = 1; i<10; i++ )
+		{
+			if(i%2 == 1)
+				continue;
+			for(int y = 1; y<10; y++)
+			{
+				System.out.println(i + " * " + y + "=" + i*y);
+			}
+			System.out.println("\t");
+			
+//		123p 3번
+		}*/
+		/*for(int i = 1; i<10; i++ )
+		{
+			for(int y = 1; y<10; y++)
+			{
+				if(i < y)
+					break;
+			
+				System.out.println(i + " * " + y + "=" + i*y);
+			}
+			System.out.println("\t");
+		}*/
+		
+		for(int i = 0; i < 4; i++)
+		{
+			for(int j = 0; j < i; j++)
+			{
+				System.out.print(" ");
+			}
+			for(int y = i; y<(2*4); y++) 
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
