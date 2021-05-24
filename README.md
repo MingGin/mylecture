@@ -1,2 +1,4 @@
 # mylecture
-공부하는 곳
+
+
+# Day 8
