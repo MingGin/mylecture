@@ -1,0 +1,34 @@
+package ex.java.input;
+
+import java.util.Scanner;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("계산식을 입력하시오 : ");
+		String num = sc.nextLine();
+		String op = num.split(" ");
+		
+		int num1 = Integer.parseInt(num[0]);
+		int num2 = Integer.parseInt(num[2]);
+		
+		System.out.println(num[1]);
+		
+		switch(num[1])
+		{
+		case "+" :
+			System.out.println("결과 : " + (num1 + num2));
+				break;
+		}
+		
+//		if(num[1].equals("+"))
+//		{
+//			System.out.println("결과 : " + (num1 + num2) );
+//		}
+		
+
+	}
+
+}

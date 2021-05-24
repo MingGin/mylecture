@@ -1,0 +1,27 @@
+package kr.java.homework;
+
+import java.util.Scanner;
+
+public class homework05211 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		if(3 <= n && n <= 10)
+		{
+			for(int i = n; i >=0; i--) // 5 4 3 2 1
+			{
+				for(int j = 0; j <= n; j++) 
+				{	
+					System.out.println("*");
+				}
+			}
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package kr.java.chapter8;
+
+public class StudeuntMain3 {
+
+	public static void main(String[] args) {
+		// Student2, Score2 이용
+		// -- subj -> 배열
+		
+		
+		// 홍길동/구로구/3, 수학 100, 국어 90
+		// 고길동/영등포구/3, 수학 70, 국어 80
+		
+		Student2 student = new Student2();
+		Student2 student1 = new Student2();
+		// 학생 1
+		student.studentName = "홍길동";
+		student.address = "구로구";
+		student.grade = 3;
+		student.subj = new Score2[2];
+
+	}
+
+}

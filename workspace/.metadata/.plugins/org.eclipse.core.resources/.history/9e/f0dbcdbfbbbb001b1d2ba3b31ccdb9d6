@@ -1,0 +1,30 @@
+package kr.java.homework;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class homework05215 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int [] bubble = new int[10];
+		int temp = 0;
+		
+		for(int i = 0; i < bubble.length; i++)
+		{
+			bubble[i] = sc.nextInt();
+			
+			if(bubble[i] < bubble[i+1])
+			{
+				temp = bubble[i]; 
+				bubble[i] = bubble[i+1]; 
+				bubble[i+1] = temp;
+			}
+		}
+		System.out.println(Arrays.toString(bubble));
+		
+
+	}
+
+}

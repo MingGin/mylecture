@@ -1,0 +1,16 @@
+package ex.java.input;
+
+import java.util.Scanner;
+
+public class ArrayTest2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = args.length; i > args.length; i--)
+		
+		
+
+	}
+
+}

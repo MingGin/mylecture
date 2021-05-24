@@ -1,0 +1,26 @@
+package ex.java.input;
+
+import java.util.Scanner;
+
+public class test6 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("N값을 입력하세요 : ");
+		int n = sc.nextInt();
+		System.out.println("N의 값 : " + n);
+		String result;
+		
+		for(int i = 0; i<=n; i++)
+		{
+			if(i%2 == 0)
+				{
+					String result = Double.toString(Math.pow(2*n, 2*n-1));
+				
+				}
+		}
+		System.out.printf("합계 : %s" , result);
+
+	}
+
+}
